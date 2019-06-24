@@ -1,0 +1,9 @@
+[package]
+name = "diesel_demo"
+version = "0.1.0"
+authors = ["Vlady Veselinov <vladislav.veselinov@fanduel.com>"]
+edition = "2018"
+
+[dependencies]
+diesel = { version = "1.4.2", features = ["postgres"] }
+dotenv = "0.14.0"
