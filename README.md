@@ -10,6 +10,14 @@ Write a post:
 Show all posts:
 `cargo run --bin show_posts`
 
-Publish a post: 
-`cargo run --bin publish_post`
+Publish a post by id: 
+`cargo run --bin publish_post 1`
 
+Delete a post by title:
+`cargo run --bin delete_post demo`
+
+
+
+Guides: 
+http://diesel.rs
+https://docs.docker.com/compose/overview/
